@@ -1,28 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="app.css"> <!-- Linked the CSS file to the HTML-->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+  <!-- Added google font here-->
+
   <title>Frontend Mentor | QR code component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
+  <div class="container">
+    <!--Added dev container for body element-->
 
-  Improve your front-end skills by building projects
 
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <div class="qr-code-photo">
+      <!--This div class is for the QR code photo-->
+      <img src="images\image-qr-code.png" alt="QR_Code">
+      <!--QR Code Photo here-->
+    </div>
+
+
+
+    Improve your front-end skills by building projects
+
+    Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://twitter.com/mccane_matthew">Matthew McCane</a>.
+      <!--Added my credentials in footer!-->
+    </footer>
+    <!--changed div tags to footer tags-->
   </div>
 </body>
+
 </html>
