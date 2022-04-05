@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+/* Imports google font: Outfit */
+
+* {
+    margin: 0;
+    /* these two declarations remove margin and padding from edge of QR code logo */
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    /* this is imported from google fonts*/
+}
+
+.container {
+    max-width: 360px;
+    /* sets the maximum width of this container */
+    margin: 0 auto;
+    /* this aligns the container in the center of page */
+
+}
