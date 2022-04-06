@@ -10,6 +10,11 @@
 body {
     font-family: 'Outfit', sans-serif;
     /* this is imported from google fonts*/
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
 }
 
 .container {
@@ -17,5 +22,23 @@ body {
     /* sets the maximum width of this container */
     margin: 0 auto;
     /* this aligns the container in the center of page */
+}
 
+.card {
+    background-color: hsl(0, 0%, 100%);
+    padding: 18px;
+    /* gives the image a white border or puts padding inside the card element */
+    border-radius: 17px;
+    /* makes the border corners rounded */
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    /* defines the width in percent of the containing block */
+    border-radius: 12px;
+}
+
+.text {
+    padding: 22px 10px;
 }
