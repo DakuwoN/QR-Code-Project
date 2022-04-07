@@ -31,6 +31,8 @@ body {
     border-radius: 17px;
     /* makes the border corners rounded */
     text-align: center;
+    margin: 0 1em;
+    /* applies margin space around the border of the card in relation to the browser movement */
 }
 
 .card img {
@@ -41,4 +43,15 @@ body {
 
 .text {
     padding: 22px 10px;
+    /* Creates space in between image and text */
+}
+
+.text h2 {
+    color: hsl(218, 44%, 22%);
+    padding-bottom: 15px;
+    /* created space between h2 text and paragraph text */
+}
+
+.text p {
+    color: hsl(220, 15%, 55%);
 }
