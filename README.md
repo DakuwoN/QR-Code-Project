@@ -21,7 +21,7 @@ In this project, I designed a QR Code Component for Desktop PC.
 
 ### Screenshot
 
-![My QR Code Solution](./my-solution.jpg)
+![My QR Code Solution](./QR_code_project/my-solution.jpg)
 
 ### Links
 
