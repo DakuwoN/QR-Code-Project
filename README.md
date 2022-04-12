@@ -22,12 +22,18 @@ In this project, I designed a QR Code Component for Desktop PC.
 ### Screenshot
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ![My QR Code Solution](./QR_code_project/my-solution.jpg)
 ||||||| e635d1a
 ![My QR Code Solution](/my-solution.jpg)
 =======
 ![My QR Code Solution](./my-solution.jpg)
 >>>>>>> 40e44c115ea8c7858f879c9991af4033c93f240f
+||||||| 40e44c1
+![My QR Code Solution](./my-solution.jpg)
+=======
+![My QR Code Solution](./QR_code_project/my-solution.jpg)
+>>>>>>> 16c9692cd7b142cb3835401b2f64c49e136714d6
 
 ### Links
 
